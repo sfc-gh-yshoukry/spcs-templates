@@ -39,7 +39,7 @@ GRANT USAGE, MONITOR ON COMPUTE POOL postgres_redis to ROLE airflow_admin_rl;
 GRANT USAGE, MONITOR ON COMPUTE POOL airflow_server to ROLE airflow_admin_rl;
 GRANT USAGE, MONITOR ON COMPUTE POOL airflow_workers to ROLE airflow_admin_rl;
 
---########################## create Image Registry and YAML Stage ###################1234
+--########################## create Image Registry and YAML Stage #########################
 USE ROLE airflow_admin_rl;
 USE DATABASE airflow_db;
 USE WAREHOUSE airflow_wh;
