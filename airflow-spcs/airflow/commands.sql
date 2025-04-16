@@ -1,4 +1,4 @@
---########################## Initial Setup ##########################
+--########################## Initial Setup ##########################11
 
 USE ROLE ACCOUNTADMIN;
 CREATE ROLE airflow_admin_rl;
